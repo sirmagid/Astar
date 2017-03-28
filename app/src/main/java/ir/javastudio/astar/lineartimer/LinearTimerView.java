@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.lineartimer;
+package ir.javastudio.astar.lineartimer;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-import ir.javastudio.memorygame.R;
+import ir.javastudio.astar.R;
 
 
 /**

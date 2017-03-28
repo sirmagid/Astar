@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.pathfinding;
+package ir.javastudio.astar.pathfinding;
 
 /**
  * A tagging interface for an object representing the entity in the game that

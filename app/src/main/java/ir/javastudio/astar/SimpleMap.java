@@ -1,7 +1,7 @@
-package ir.javastudio.memorygame;
+package ir.javastudio.astar;
 
-import ir.javastudio.memorygame.pathfinding.PathFindingContext;
-import ir.javastudio.memorygame.pathfinding.TileBasedMap;
+import ir.javastudio.astar.pathfinding.PathFindingContext;
+import ir.javastudio.astar.pathfinding.TileBasedMap;
 //http://stackoverflow.com/questions/7195056/how-do-i-programmatically-add-buttons-into-layout-one-by-one-in-several-lines
 //http://stackoverflow.com/questions/9742039/a-pathfinding-java-slick2d-libraryhttp://stackoverflow.com/questions/9742039/a-pathfinding-java-slick2d-library
 /**

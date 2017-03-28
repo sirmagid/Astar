@@ -1,14 +1,15 @@
-package ir.javastudio.memorygame;
+package ir.javastudio.astar;
 
-import ir.javastudio.memorygame.pathfinding.AStarPathFinder;
-import ir.javastudio.memorygame.pathfinding.Mover;
-import ir.javastudio.memorygame.pathfinding.Path;
-import ir.javastudio.memorygame.pathfinding.PathFindingContext;
-import ir.javastudio.memorygame.pathfinding.TileBasedMap;
+import ir.javastudio.astar.pathfinding.AStarPathFinder;
+import ir.javastudio.astar.pathfinding.Mover;
+import ir.javastudio.astar.pathfinding.Path;
+import ir.javastudio.astar.pathfinding.PathFindingContext;
+import ir.javastudio.astar.pathfinding.TileBasedMap;
 
 
 public class AStarTest {
 
+    //test112
     private static final int MAX_PATH_LENGTH = 100;
 
     private static final int START_X = 1;

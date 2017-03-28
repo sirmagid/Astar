@@ -127,7 +127,7 @@
             circular:cpb_subtitle="subtitle"
             circular:cpb_title="Title" />-->
 
-        <ir.javastudio.memorygame.lineartimer.LinearTimerView
+        <ir.javastudio.astar.lineartimer.LinearTimerView
             android:id="@+id/linearTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

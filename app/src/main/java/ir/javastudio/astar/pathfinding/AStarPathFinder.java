@@ -1,10 +1,10 @@
-package ir.javastudio.memorygame.pathfinding;
+package ir.javastudio.astar.pathfinding;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import ir.javastudio.memorygame.pathfinding.heuristics.ClosestHeuristic;
+import ir.javastudio.astar.pathfinding.heuristics.ClosestHeuristic;
 
 /**
  * A path finder implementation that uses the AStar heuristic based algorithm
@@ -561,28 +561,28 @@ public class AStarPathFinder implements PathFinder, PathFindingContext {
 	}
 
 	/**
-	 * @see ir.javastudio.memorygame.pathfinding.PathFindingContext#getMover()
+	 * @see ir.javastudio.astar.pathfinding.PathFindingContext#getMover()
 	 */
 	public Mover getMover() {
 		return mover;
 	}
 
 	/**
-	 * @see ir.javastudio.memorygame.pathfinding.PathFindingContext#getSearchDistance()
+	 * @see ir.javastudio.astar.pathfinding.PathFindingContext#getSearchDistance()
 	 */
 	public int getSearchDistance() {
 		return distance;
 	}
 
 	/**
-	 * @see ir.javastudio.memorygame.pathfinding.PathFindingContext#getSourceX()
+	 * @see ir.javastudio.astar.pathfinding.PathFindingContext#getSourceX()
 	 */
 	public int getSourceX() {
 		return sourceX;
 	}
 
 	/**
-	 * @see ir.javastudio.memorygame.pathfinding.PathFindingContext#getSourceY()
+	 * @see ir.javastudio.astar.pathfinding.PathFindingContext#getSourceY()
 	 */
 	public int getSourceY() {
 		return sourceY;

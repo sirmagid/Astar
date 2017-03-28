@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.lineartimer;
+package ir.javastudio.astar.lineartimer;
 
 /**
  * The enum status codes holds the various states of LinearTimer. It may be used to diversify

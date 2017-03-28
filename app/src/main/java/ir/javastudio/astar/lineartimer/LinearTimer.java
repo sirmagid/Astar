@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.lineartimer;
+package ir.javastudio.astar.lineartimer;
 
 import android.animation.ObjectAnimator;
 import android.view.animation.AccelerateDecelerateInterpolator;

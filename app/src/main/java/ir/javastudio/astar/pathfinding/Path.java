@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.pathfinding;
+package ir.javastudio.astar.pathfinding;
 
 import java.io.Serializable;
 import java.util.ArrayList;

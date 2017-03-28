@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame;
+package ir.javastudio.astar;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -12,13 +12,13 @@ import android.widget.TextView;
 
 import java.util.concurrent.TimeUnit;
 
-import ir.javastudio.memorygame.lineartimer.LinearTimer;
-import ir.javastudio.memorygame.lineartimer.LinearTimerStates;
-import ir.javastudio.memorygame.lineartimer.LinearTimerView;
-import ir.javastudio.memorygame.pathfinding.AStarPathFinder;
-import ir.javastudio.memorygame.pathfinding.Path;
-import ir.javastudio.memorygame.pathfinding.PathFindingContext;
-import ir.javastudio.memorygame.pathfinding.TileBasedMap;
+import ir.javastudio.astar.lineartimer.LinearTimer;
+import ir.javastudio.astar.lineartimer.LinearTimerStates;
+import ir.javastudio.astar.lineartimer.LinearTimerView;
+import ir.javastudio.astar.pathfinding.AStarPathFinder;
+import ir.javastudio.astar.pathfinding.Path;
+import ir.javastudio.astar.pathfinding.PathFindingContext;
+import ir.javastudio.astar.pathfinding.TileBasedMap;
 
 public class MainActivity extends AppCompatActivity implements LinearTimer.TimerListener,TileBasedMap {
 

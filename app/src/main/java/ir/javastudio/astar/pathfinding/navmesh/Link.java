@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.pathfinding.navmesh;
+package ir.javastudio.astar.pathfinding.navmesh;
 
 /**
  * A link between this space and another

@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.pathfinding;
+package ir.javastudio.astar.pathfinding;
 
 /**
  * The description for the data we're pathfinding over. This provides the contract

@@ -1,10 +1,10 @@
-package ir.javastudio.memorygame.pathfinding.navmesh;
+package ir.javastudio.astar.pathfinding.navmesh;
 
 import java.util.ArrayList;
 
-import ir.javastudio.memorygame.pathfinding.Mover;
-import ir.javastudio.memorygame.pathfinding.PathFindingContext;
-import ir.javastudio.memorygame.pathfinding.TileBasedMap;
+import ir.javastudio.astar.pathfinding.Mover;
+import ir.javastudio.astar.pathfinding.PathFindingContext;
+import ir.javastudio.astar.pathfinding.TileBasedMap;
 
 /**
  * The builder responsible for converting a tile based map into

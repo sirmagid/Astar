@@ -1,8 +1,8 @@
-package ir.javastudio.memorygame.pathfinding.heuristics;
+package ir.javastudio.astar.pathfinding.heuristics;
 
-import ir.javastudio.memorygame.pathfinding.AStarHeuristic;
-import ir.javastudio.memorygame.pathfinding.Mover;
-import ir.javastudio.memorygame.pathfinding.TileBasedMap;
+import ir.javastudio.astar.pathfinding.AStarHeuristic;
+import ir.javastudio.astar.pathfinding.Mover;
+import ir.javastudio.astar.pathfinding.TileBasedMap;
 
 /**
  * A heuristic that drives the search based on the Manhattan distance

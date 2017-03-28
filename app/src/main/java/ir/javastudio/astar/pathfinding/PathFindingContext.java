@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.pathfinding;
+package ir.javastudio.astar.pathfinding;
 
 /**
  * The context describing the current path finding state

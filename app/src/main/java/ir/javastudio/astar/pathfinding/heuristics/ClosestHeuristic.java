@@ -1,9 +1,9 @@
-package ir.javastudio.memorygame.pathfinding.heuristics;
+package ir.javastudio.astar.pathfinding.heuristics;
 
 
-import ir.javastudio.memorygame.pathfinding.AStarHeuristic;
-import ir.javastudio.memorygame.pathfinding.Mover;
-import ir.javastudio.memorygame.pathfinding.TileBasedMap;
+import ir.javastudio.astar.pathfinding.AStarHeuristic;
+import ir.javastudio.astar.pathfinding.Mover;
+import ir.javastudio.astar.pathfinding.TileBasedMap;
 
 /**
  * A heuristic that uses the tile that is closest to the target

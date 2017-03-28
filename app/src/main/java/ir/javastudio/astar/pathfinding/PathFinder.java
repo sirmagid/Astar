@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.pathfinding;
+package ir.javastudio.astar.pathfinding;
 
 /**
  * A description of an implementation that can find a path from one 

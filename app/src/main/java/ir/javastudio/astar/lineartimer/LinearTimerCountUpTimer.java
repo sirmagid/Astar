@@ -1,4 +1,4 @@
-package ir.javastudio.memorygame.lineartimer;
+package ir.javastudio.astar.lineartimer;
 
 public class LinearTimerCountUpTimer extends CountUpTimer {
 
