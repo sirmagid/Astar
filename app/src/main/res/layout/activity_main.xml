@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:timer="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgrondreg"
+    android:id="@+id/l0">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/l1"
+        android:weightSum="8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/border_shadow_top"
+        android:gravity="right"
+        >
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5" />
+
+        <ImageButton
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/bootfollow"
+            android:layout_above="@+id/l2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight=".5"
+            android:textColor="@color/text_color"
+            android:background="@drawable/custom_button_circly"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_cached"
+            />
+
+
+        <ImageButton
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/chanellraport"
+            android:layout_above="@+id/l2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight=".5"
+            android:textColor="@color/text_color"
+            android:background="@drawable/custom_list_row_back_next_back"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_error_outline"
+            />
+        <ImageButton
+            android:layout_width="7dp"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:id="@+id/omageviewoffon"
+            android:layout_above="@+id/l2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight=".5"
+            android:textColor="@color/text_color"
+            android:background="@drawable/custom_button_circly"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/sirmagid_imageon"
+            />
+
+    </LinearLayout>
+    <!-- android:drawableRight="@drawable/icongetmember" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/l1"
+        android:id="@+id/circel_prograss"
+        android:gravity="center"
+        >
+
+        <!--<com.instaup1.app.uitools.CircularProgressBar
+            android:id="@+id/circularprogressbar3"
+            style="@style/Widget.ProgressBar.CircularProgressBar"
+            android:layout_width="90dip"
+            android:layout_height="90dip"
+            android:layout_marginTop="10dip"
+            circular:cpb_subtitle="subtitle"
+            circular:cpb_title="Title" />-->
+
+        <ir.javastudio.memorygame.lineartimer.LinearTimerView
+            android:id="@+id/linearTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            timer:lineartimer_radius="20dp"
+            timer:lineartimer_strokeWidth="2dp"
+            timer:lineartimer_startingPoint="270"
+            timer:lineartimer_initialColor="@color/colorPrimary"
+            timer:lineartimer_progressColor="@color/lineartimer_colorInitial"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/text_view_timer"
+            android:text="00.00"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linear_layout_tags"
+        >
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
