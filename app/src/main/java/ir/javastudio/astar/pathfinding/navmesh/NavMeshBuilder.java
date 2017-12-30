@@ -10,7 +10,7 @@ import ir.javastudio.astar.pathfinding.TileBasedMap;
  * The builder responsible for converting a tile based map into
  * a navigation mesh
  * 
- * @author kevin
+ * @author sirmagid
  */
 public class NavMeshBuilder implements PathFindingContext {
 	/** The current x position we're searching */
