@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * A path across a navigation mesh
  * 
- * @author kevin
+ * @author sirmagid
  */
 public class NavPath {
 	/** The list of links that form this path */
