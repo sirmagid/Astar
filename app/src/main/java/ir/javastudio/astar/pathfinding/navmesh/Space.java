@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * A quad space within a navigation mesh
  * 
- * @author kevin
+ * @author SIRMAGID@GMAIL.COM
  */
 public class Space {
 	/** The x coordinate of the top corner of the space */
