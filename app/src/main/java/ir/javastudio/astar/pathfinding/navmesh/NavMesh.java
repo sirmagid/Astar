@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * resolution that tile maps require. This leads to fast path finding and 
  * potentially much more accurate map definition.
  *  
- * @author kevin
+ * @author sirmagid
  *
  */
 public class NavMesh {
