@@ -3,7 +3,7 @@ package ir.javastudio.astar.pathfinding.navmesh;
 /**
  * A link between this space and another
  * 
- * @author kevin
+ * @author sirmagid
  */
 public class Link {
 	/** The x coordinate of the joining point */
